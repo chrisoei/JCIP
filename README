@@ -10,6 +10,25 @@ The four annotations provided are:
 	@NotThreadSafe
 	@GuardedBy
 
+This code is also available as a Maven artifact. To use it, add
+the following dependency to your pom.xml:
+
+    <dependency>
+      <groupId>net.jcip</groupId>
+      <artifactId>jcip-annotations</artifactId>
+      <version>1.2</version>
+      <scope>compile</scope>
+    </dependency>
+
+You will also need to add the following in your repositories section:
+  <repositories>
+    <repository>
+      <name>eluctari.com</name>
+      <id>eluctari</id>
+      <url>http://eluctari.s3.amazonaws.com/repo/maven/3</url>
+    </repository>
+  </repositories>
+
 Copyright (c) 2005 Brian Goetz and Tim Peierls
 Released under the Creative Commons Attribution License
 (http://creativecommons.org/licenses/by/2.5)
