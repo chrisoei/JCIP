@@ -1,0 +1,25 @@
+This project mirrors the Java concurrency annotations source code as
+described in Brian Goetz's Java Concurrency In Practice. The original
+can be downloaded from:
+
+http://www.javaconcurrencyinpractice.com/jcip-annotations-src.jar
+
+The four annotations provided are:
+	@Immutable
+	@ThreadSafe
+	@NotThreadSafe
+	@GuardedBy
+
+This github repository (https://github.com/chrisoei/jcip) has several branches:
+ 	master: contains only the source files for the annotations
+	eclipse: everything in master, plus some eclipse-specific files 
+		and fixes
+	examples: everything in master, plus sample code from
+		http://www.javaconcurrencyinpractice.com/jcip-examples-src.jar
+
+Copyright (c) 2005 Brian Goetz and Tim Peierls
+Released under the Creative Commons Attribution License
+(http://creativecommons.org/licenses/by/2.5)
+Official home: http://www.jcip.net
+Any republication or derived work distributed in source code form
+must include this copyright and license notice.
