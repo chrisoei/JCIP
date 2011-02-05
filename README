@@ -10,8 +10,9 @@ The four annotations provided are:
 	@NotThreadSafe
 	@GuardedBy
 
-This code is also available as a Maven artifact. To use it, add
-the following dependency to your pom.xml:
+This library -- along with the source and javadoc jar files -- is also
+available as a Maven artifact. To use it, add the following dependency
+to your pom.xml:
 
     <dependency>
       <groupId>net.jcip</groupId>
@@ -20,7 +21,7 @@ the following dependency to your pom.xml:
       <scope>compile</scope>
     </dependency>
 
-You will also need to add the following in your repositories section:
+You will also need to add the following repository:
   <repositories>
     <repository>
       <name>eluctari.com</name>
